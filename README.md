@@ -18,12 +18,12 @@
   * [Typography]headings
   * [Typography]text-columns
   * [Typography]text-styles
-4. MIXINS
-5. Variables
-  * constants
-  * var-breakpoints
-  * var-color-bg.scss
-  * var-color-text
-  * var-media-query
-  * var-typography
+4. MIXIN [Partials]
+5. Variables[Partials]
+  * constants [Partials]
+  * var-breakpoints [Partials]
+  * var-color-bg.scss [Partials]
+  * var-color-text [Partials]
+  * var-media-query [Partials]
+  * var-typography [Partials]
 
