@@ -7,8 +7,8 @@
   * normalize.css
   * menu.css
 3. Sass Refactoring CSS [Partials]
-  * [color]color-backround
-  * [color]color-txt
+  * [Color]color-backround
+  * [Color]color-txt
   * [Layout] buttons
   * [Layout] clearfix
   * [Layout] containers
@@ -18,12 +18,11 @@
   * [Typography]headings
   * [Typography]text-columns
   * [Typography]text-styles
-4. MIXIN [Partials]
-5. Variables[Partials]
-  * constants [Partials]
-  * var-breakpoints [Partials]
-  * var-color-bg.scss [Partials]
-  * var-color-text [Partials]
-  * var-media-query [Partials]
-  * var-typography [Partials]
+  * MIXIN [Partials]
+  * [Variables]constants
+  * [Variables] var-breakpoints
+  * [Variables] var-color-bg
+  * [Variables] var-color-text
+  * [Variables] var-media-query
+  * [Variables] var-typography
 
