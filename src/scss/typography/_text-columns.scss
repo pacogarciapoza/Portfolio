@@ -1,0 +1,13 @@
+//TEXT COLUMNS
+
+.columns{
+	@media #{$brk-narrow}{
+    column-count: 2;
+    padding: 0 20px 0 20px;
+	}
+	@media #{$brk-wide}{
+    column-count: 3;
+    padding: 0 20px 0 20px;
+	}
+
+}

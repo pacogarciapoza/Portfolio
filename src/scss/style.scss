@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 @import 'variables';
 @import 'mixins';
@@ -12,5 +13,25 @@
 @import 'layout/img';
 @import 'layout/typography';
 @import 'layout/color';
+=======
+@import 'variables/constants';
+@import 'variables/var-color-text';
+@import 'variables/var-color-bg';
+@import 'variables/var-color-fx';
+@import 'variables/var-typography';
+@import 'variables/var-breakpoints';
+@import 'mixins/mixins';
+@import 'layout/settings';
+@import 'layout/clearfix';
+@import 'layout/containers';
+@import 'layout/footer';
+@import 'layout/buttons';
+@import 'layout/img';
+@import 'typography/headings';
+@import 'typography/text-styles';
+@import 'typography/text-columns';
+@import 'color/color-background';
+@import 'color/color-text';
+>>>>>>> e9a807301f1b606573e1f6ebf7606de02a6982f6
 
 
