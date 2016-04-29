@@ -1,0 +1,10 @@
+//MIXINS
+@mixin triangle($with, $height, $b-top, $b-bot, $b-left, $b-right){
+	width: $with;
+    height: $height;
+    border-top: $b-top;
+    border-bottom: $b-bot;
+    border-left: $b-left;
+    border-right: $b-right;
+}
+ 

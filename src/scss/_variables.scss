@@ -1,0 +1,37 @@
+//constantes
+$email: 'proyectokidscode@gmail.com';
+
+//media query breakpoints
+
+$brk-narrow:'(min-width:780px)';
+$brk-wide:'(min-width:1024px)';
+
+// VARIABLES TIPOGRAFÍA
+$sans-serif: Helvetica, Arial, sans-serif;
+$source-sans:'Source Sans', $sans-serif;
+$reg:400;
+$bold:700;
+
+// VARIABLES COLOR TEXTO
+//colores principales texto
+$primaryColorWhite: #ffffff;
+$primaryColorGrey: #404040;
+$primaryColorBlue: #106389; 
+$primaryColorRed: #f83b3f;
+$primaryColorYellow: #ffcc00;
+
+//paleta secundaria texto
+$secondaryColorGrey: #808080;
+$secondaryColorGrey: #eeeeee;
+$secondaryColorBlue: #1794cf;
+$secondaryColorRed: #fb8586;
+$secondaryColorYellow: #ffe580;
+
+//paleta terciaria background
+$terciaryColorGrey: #b3b3b3;
+$terciaryColorBlue: #aadef5;
+$terciaryColorRed: #fdcece;
+
+// VARIABLES COLOR EFECTOS
+$colorShadowBtn: #404040;
+$nav-color-text: #404040;

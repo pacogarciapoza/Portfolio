@@ -1,0 +1,83 @@
+ //PLACEHOLDER DIV
+.placeholder{
+    width:100px;
+    height:200px;
+    background: url("../img/logo.svg");
+    background-repeat: no-repeat;
+    margin:auto;
+    min-width:100px;
+    max-width:200px;
+
+    @media #{$brk-narrow}{
+    float: left;
+    width:250px;
+    height:320px;
+    }
+}
+
+.img-bio{
+    width:100px;
+    height:200px;
+    background: url("../img/logo.svg");
+    background-repeat: no-repeat;
+    margin:auto;
+    min-width:100px;
+    max-width:200px;
+
+
+    @media #{$brk-narrow}{
+    width:250px;
+    height:320px;
+    }
+}
+
+	//BUBBLR TRIANGLE MIXIN
+.triangle-left-down{
+	    @include triangle(
+	    	0, 
+	    	0, 
+	    	25px solid $primaryColorWhite,
+	    	0,
+	    	25px solid transparent,
+            25px solid transparent);
+	    	margin:auto;
+
+	    
+	    @media #{$brk-narrow}{
+    	@include triangle(
+    		0, 
+	    	0,
+	    	35px solid transparent,
+	    	35px solid transparent,
+	    	35px solid $primaryColorWhite,
+	    	0);
+    		float: left;
+    		margin-top: 125px;
+    		margin-left: -5px;
+    }
+} 
+
+
+.triangle-right-down{
+        @include triangle(
+            0, 
+            0, 
+            0,
+            100px solid red,
+            50px solid transparent,
+            50px solid transparent);
+            margin:auto;
+
+        
+        @media #{$brk-narrow}{
+        @include triangle(
+            0, 
+            0,
+            35px solid transparent,
+            35px solid transparent,
+            0,
+            35px solid $primaryColorWhite);
+            float: left;
+    }
+} 
+

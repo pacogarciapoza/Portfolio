@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Portfolio</title>
+		<link rel="stylesheet" href="css/style.css">
+		<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,700italic,400italic' rel='stylesheet' type='text/css'>
+
+		<!--VIEWPORT-->
+  		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+		<!--google fonts-->
+		<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,700italic,400italic' rel='stylesheet' type='text/css'>
+ 
+		<!--Jquery AAA DESCARGAR ARCHIVO--> 
+  		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+		<!--function scroll & execute css animation AAA CHANGE APLICATION & FX-->
+		
+		<!--Script ejecución animaciones cuando se ejecuta el scroll-->
+				<script>
+  				$(window).scroll(function() {
+    			$('.number-1, .number-2, .number-3').each(function(){
+    				var imagePos = $(this).offset().top;
+					var topOfWindow = $(window).scrollTop();
+      				if (imagePos < topOfWindow+400) {
+        			$(this).addClass("slideUp");}
+    					});
+  					});
+				</script>
+
+		<!--Google anlytics implementation AAA CONNECT-->
+	</head>
+	<body>
+
+		<div>
+		<!--Menú hamburguesa-->
+			<div class="hamburger">
+				<div class="_layer -top"></div>
+					<div class="_layer -mid"></div>
+					<div class="_layer -bottom"></div>
+				</div>
+			<nav class="menuppal">
+    			<ul>
+      				<li><a href="#">Opcion 1</a></li>
+      				<li><a href="#">Opcion 2</a></li>
+      				<li><a href="#">Opcion 3</a></li>
+      				<li><a href="#">Opcion 4</a></li>
+    			</ul>
+  		</nav>
+  </div>
+	<!--CONTENEDOR 1, PRESENTACIÓN-->
+		<div class="container-wide color-bg-yellow-drk">
+	
+		<div>
+			<div class="container-narrow flex-container flex-row">
+				<div class="fl-1 basis">
+					<div class="content-txt"><h1>Nice web design stuff</h1></div>
+				</div>
+
+				<div class="fl-1 basis">
+					<div class="triangle-left-down"></div><div class="placeholder left hatch"></div>
+				</div>
+			</div>
+		</div>
+	<!--CONTENEDOR 2, TEXTO-->
+		<div class="container-wide color-bg-blue-med flex-center-txt">
+			<div class="container-narrow flex txt-centered"><h2 class="color-txt-white">#Barcelona #1975 #Clot #Verano #Popeyes de limón #Ocata #Sabrina Salerno #Europe</h2>
+		</div>
+
+	<!--CONTENEDOR 3, BIOGRAFÍA-->
+	<div class="container-wide color-bg-yellow-drk">
+	
+		<div>
+			<div class="container-narrow flex-container flex-row">
+				
+				<div class="fl-1 basis">
+					<div class="img-bio left hatch"></div>
+				</div>
+
+
+				<div class="fl-2 basis">
+					<div><p>Lorem ipsum dolor sic amet... dolor sic mamet Lorem Ipsum Lorem ipsum dolor sic amet... dolor sic mamet Lorem Ipsum Lorem ipsum dolor sic amet... dolor sic mamet Lorem Ipsum Lorem ipsum dolor sic amet... dolor sic mamet Lorem Ipsum</p><a href src="pdf/cv-pacogarcia.pdf"> Descarga el CV [PDF]</a>
+					</div>
+				</div>
+			</div>
+
+<!--Slideshow-->
+
+<div class="container-wide color-bg-blue-med">
+
+<div class="slideshow">
+	<div class="prev">&lt;</div>
+	<div class="next">&gt;</div>
+  
+  <ul class="slides">
+    <li id="slide-1" data-n="1"></li>
+    <li id="slide-2" data-n="2"></li>
+    <li id="slide-3" data-n="3"></li>
+    <li id="slide-4" data-n="4"></li>
+  </ul>
+  <ul class="nav">
+    <li id="nav-1" data-cd="1"></li>
+    <li id="nav-2" data-cd="2"></li>
+    <li id="nav-3" data-cd="3"></li>
+    <li id="nav-4" data-cd="4"></li>
+  </ul>
+</div>
+</div>
+<script src="js/slider.js"></script>
+
+	</div>
+</body>
+
+<script>
+var opts = {
+    auto : {
+        speed : 3500, 
+        pauseOnHover : true
+    },
+    fullScreen : false, 
+    swipe : true
+};
+makeBSS('.num1', opts);
+
+var opts2 = {
+    auto : false,
+    fullScreen : true,
+    swipe : true
+};
+makeBSS('.num2', opts2);
+</script>
+
+	<!-- execute button animations AAA CHANGE APLICATION & FX-->
+  		<script>
+  			$('.btn-slogan').click(function() {
+    		$(this).addClass("slideUp");
+  			});
+
+
+			function getRandomInt(min, max) {
+			  return Math.floor(Math.random() * (max - min)) + min;
+			}
+
+			var frases = ['hola', 'adios','Un camello no es caballo con 2 jorobas','miquel utrillo 17, el vendrell'];
+			var fraseActual = frases[getRandomInt(0, 4)];
+			$('h2.color-txt-white').html(fraseActual);
+  		</script>
+
+  	<!-- menu js code-->
+  		<script>var menu = document.querySelector('.hamburger');
+			function toggleMenu(event) {
+    		this.classList.toggle('is-active');
+    		document.querySelector('.menuppal').classList.toggle('is_active');
+    		event.preventDefault();
+			}
+			menu.addEventListener('click', toggleMenu, false);
+		</script>
+
+</html>

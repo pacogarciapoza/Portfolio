@@ -1,0 +1,100 @@
+//TEXT HEADINGS
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    line-height: 1.5rrem;
+    font-style: 400;
+    margin-top: 1.5rrem;
+    margin-bottom: 1.5rrem;
+    color:$primaryColorGrey;
+    text-rendering: optimizeLegibility;
+}
+p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+
+}
+h1{
+    font-size: 2.5rem;
+    line-height: 2.75rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    @media only screen and #{$brk-narrow}{
+    font-size: 3rem;
+    line-height: 3rem;
+    }
+}
+
+h2{
+    font-size: 1.375rem;
+    font-weight: 700;
+    line-height:1.5rem;
+    margin-top: 1.09rem;
+    margin-bottom: 1.09rem;
+
+}
+h3{
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.2rem;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+
+}
+h4{
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.71rem;
+    margin-top: 1.71rem;
+    margin-bottom: 1.71rem;
+    font-style: italic;
+
+}
+h5{
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2.1rem;
+
+}
+h6{
+    font-size: 0.625rem;
+    line-height: 2.4rem;
+    margin-top: 2.4rem;
+    margin-bottom: 2.6rem;
+
+}
+a{font-size: 1rem;
+    line-height: 1.5rem;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    color: #1794cf;
+}
+
+//TEXT STYLES
+
+.nota{
+    border-top: 1px dotted black;
+    padding:0.667;
+}
+
+//TEXT COLUMNS
+
+.columns{
+    @media only screen and #{$brk-narrow}{
+    column-count: 2;
+    padding: 2rrem;
+    border:1px solid green;
+    }
+}
+
+.txt-centered{
+    text-align: center;
+}
+.p-capitalize {
+    text-transform: capitalize;
+}
+
