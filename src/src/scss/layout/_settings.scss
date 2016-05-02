@@ -1,0 +1,9 @@
+body{
+ background-color:$primaryColorYellow;
+ min-width:320px;
+ text-decoration:none;
+}
+li{list-style: none;}
+
+hr{border:1px dashed $primaryColorGrey;
+margin: 1rem, 0.5rem, 0,1rem}

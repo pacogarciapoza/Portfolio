@@ -1,200 +1,217 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<title>Portfolio</title>
-<<<<<<< HEAD
-		<link rel="stylesheet" href="css/style.css">
-=======
-		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/estilos.css">
-		<link rel="stylesheet" href="css/menu.css">
-		<link rel="stylesheet" href="css/animations.css">
->>>>>>> e9a807301f1b606573e1f6ebf7606de02a6982f6
-		<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,700italic,400italic' rel='stylesheet' type='text/css'>
-
-		<!--VIEWPORT-->
-  		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<<<<<<< HEAD
-=======
-
-		<!--CSS-->
-  		<link rel="stylesheet" href="css/normalize.css">
-  		<link rel="stylesheet" href="css/style.css">
-  		<link rel="stylesheet" href="css/animations.css">
->>>>>>> e9a807301f1b606573e1f6ebf7606de02a6982f6
- 
-		<!--google fonts-->
-		<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,700italic,400italic' rel='stylesheet' type='text/css'>
- 
-		<!--Jquery AAA DESCARGAR ARCHIVO--> 
-  		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-		<!--function scroll & execute css animation AAA CHANGE APLICATION & FX-->
-<<<<<<< HEAD
-		
-		<!--Script ejecución animaciones cuando se ejecuta el scroll-->
-				<script>
-  				$(window).scroll(function() {
-=======
-		<script>
-  			$(window).scroll(function() {
->>>>>>> e9a807301f1b606573e1f6ebf7606de02a6982f6
-    			$('.number-1, .number-2, .number-3').each(function(){
-    				var imagePos = $(this).offset().top;
-					var topOfWindow = $(window).scrollTop();
-      				if (imagePos < topOfWindow+400) {
-        			$(this).addClass("slideUp");}
-<<<<<<< HEAD
-    					});
-  					});
-				</script>
-=======
-    			});
-  			});
-		</script>
-		
->>>>>>> e9a807301f1b606573e1f6ebf7606de02a6982f6
-
-		<!--Google anlytics implementation AAA CONNECT-->
-	</head>
-	<body>
-<<<<<<< HEAD
-
-		<div>
-		<!--Menú hamburguesa-->
-			<div class="hamburger">
-				<div class="_layer -top"></div>
-					<div class="_layer -mid"></div>
-					<div class="_layer -bottom"></div>
-				</div>
-			<nav class="menuppal">
-    			<ul>
-      				<li><a href="#">Opcion 1</a></li>
-      				<li><a href="#">Opcion 2</a></li>
-      				<li><a href="#">Opcion 3</a></li>
-      				<li><a href="#">Opcion 4</a></li>
-    			</ul>
-  		</nav>
-  </div>
-	<!--CONTENEDOR 1, PRESENTACIÓN-->
-		<div class="container-wide color-bg-yellow-drk">
+<head>
+	<meta charset="UTF-8">
+	<title>Paco García. Web Design</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,600,700,700italic,400italic' rel='stylesheet' type='text/css'>
 	
-		<div>
-			<div class="container-narrow flex-container flex-row">
-				<div class="fl-1 basis">
-					<div class="content-txt"><h1>Nice web design stuff</h1></div>
-				</div>
-
-				<div class="fl-1 basis">
-					<div class="triangle-left-down"></div><div class="placeholder left hatch"></div>
-				</div>
-			</div>
-		</div>
-	<!--CONTENEDOR 2, TEXTO-->
-		<div class="container-wide color-bg-blue-med flex-center-txt">
-			<div class="container-narrow flex txt-centered"><h2 class="color-txt-white">#Barcelona #1975 #Clot #Verano #Popeyes de limón #Ocata #Sabrina Salerno #Europe</h2>
-		</div>
-
-	<!--CONTENEDOR 3, BIOGRAFÍA-->
-	<div class="container-wide color-bg-yellow-drk">
-	
-		<div>
-			<div class="container-narrow flex-container flex-row">
-				
-				<div class="fl-1 basis">
-					<div class="img-bio left hatch"></div>
-				</div>
-
-
-				<div class="fl-2 basis">
-					<div><p>Lorem ipsum dolor sic amet... dolor sic mamet Lorem Ipsum Lorem ipsum dolor sic amet... dolor sic mamet Lorem Ipsum Lorem ipsum dolor sic amet... dolor sic mamet Lorem Ipsum Lorem ipsum dolor sic amet... dolor sic mamet Lorem Ipsum</p><a href src="pdf/cv-pacogarcia.pdf"> Descarga el CV [PDF]</a>
-					</div>
-				</div>
-			</div>
-
-<!--Slideshow-->
-
-<div class="container-wide color-bg-blue-med">
-
-<div class="slideshow">
-	<div class="prev">&lt;</div>
-	<div class="next">&gt;</div>
-  
-  <ul class="slides">
-    <li id="slide-1" data-n="1"></li>
-    <li id="slide-2" data-n="2"></li>
-    <li id="slide-3" data-n="3"></li>
-    <li id="slide-4" data-n="4"></li>
-  </ul>
-  <ul class="nav">
-    <li id="nav-1" data-cd="1"></li>
-    <li id="nav-2" data-cd="2"></li>
-    <li id="nav-3" data-cd="3"></li>
-    <li id="nav-4" data-cd="4"></li>
-  </ul>
-</div>
-</div>
-<script src="js/slider.js"></script>
-
-	</div>
-</body>
-
-<script>
-var opts = {
-    auto : {
-        speed : 3500, 
-        pauseOnHover : true
-    },
-    fullScreen : false, 
-    swipe : true
-};
-makeBSS('.num1', opts);
-
-var opts2 = {
-    auto : false,
-    fullScreen : true,
-    swipe : true
-};
-makeBSS('.num2', opts2);
-</script>
-
-=======
-		<!--Menú hamburguesa-->
-		<div class="logo slideUp"></div>
+<!--VIEWPORT-->
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+<!--google fonts-->
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,700italic,400italic' rel='stylesheet' type='text/css'>
+ 
+<!--CARGAR ARCHIVO Jquery--> 
+  	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+		
+<!--Script ejecución animaciones con scroll-->
+	<script>
+  		$(window).scroll(function() {
+    	$('.txt-anim').each(function(){
+    	var imagePos = $(this).offset().top;
+		var topOfWindow = $(window).scrollTop();
+      	if (imagePos < topOfWindow+400) {
+        $(this).addClass("slideUp");}
+    		});
+  		});
+	</script>
+</head>
+<body>
+<!--Menú hamburguesa-->
 		<div class="hamburger">
 			<div class="_layer -top"></div>
 			<div class="_layer -mid"></div>
 			<div class="_layer -bottom"></div>
 		</div>
-		<nav class="menuppal">
-    		<ul>
-      			<li><a href="#">Opcion 1</a></li>
-      			<li><a href="#">Opcion 2</a></li>
-      			<li><a href="#">Opcion 3</a></li>
-      			<li><a href="#">Opcion 4</a></li>
-    		</ul>
-  		</nav>
-		<p class="columns">Al contrario del pensamiento popular, el texto de Lorem Ipsum no es simplemente texto aleatorio. Tiene sus raices en una pieza Al contrario del pensamiento popular, el texto de Lorem Ipsum no es simplemente texto aleatorio. Tiene sus raices en una pieza Al contrario del pensamiento popular, el texto de Lorem Ipsum no es simplemente texto aleatorio. Tiene sus raices en una pieza</p>
-		
-	</body>
->>>>>>> e9a807301f1b606573e1f6ebf7606de02a6982f6
-	<!-- execute button animations AAA CHANGE APLICATION & FX-->
-  		<script>
+	<nav class="menuppal">
+    	<ul>
+      		<li><a href="#hello">Hello</a></li>
+      		<li><a href="#about">About me</a></li>
+      		<li><a href="#work">Our work</a></li>
+      		<li><a href="#hi">Say Hi!</a></li>
+    	</ul>
+	</nav>
+<!--CABECERA-->
+	<section>
+		<div class="container-wide color-bg-yellow-drk">
+			<div class="container-narrow flex-container flex-row">
+				<div class="fl-1 basis">
+					<div class="content-txt"><h1 class="color-txt-grey">Nice web design stuff</h1></div>
+				</div>
+
+				<div class="fl-1 basis">
+					<div class="triangle-left-down"></div>
+					<div class="placeholder left"></div>
+				</div>
+			</div>
+		</div>
+	<section>
+	<section id="hello"></a>
+<!--PRESENTACIÓN-->
+	<section>
+		<div class="container-wide color-bg-yellow-drk">
+			<div class="container-narrow flex-container flex-row">
+				<div class="fl-1 basis">
+					<h1 class="color-txt-white"> <div class="title txt-anim">Hey!</div></h1><h3 class="color-txt-white margin-right"> My name is Paco García and I'm a UX/UI designer based in Barcelona.</h3>
+				</div>
+	
+				<div class="fl-3 basis">
+					<div><p>Specialized in deve­lop brands as well as print and digital pro­jects. Our work is based on a solid con­ceptual approach. We have a strong focus on typo­gra­phy, design sys­tems and illustration.</p>
+					<h2 class="color-txt-white txt-anim border-left">Every project is an oportunity to make something great!</h2>
+					</div>
+				</div>
+			</div>
+<!--ABOUT-->	
+	<section id="about">
+	<article>
+		<div class="container-narrow flex-container flex-row">
+			<div class="fl-2 basis border-bottom">
+				<div><h1>About me<hr><p class="columns">Let me introduce myself, my name is Paco Garcia, I'm a designer and illustrator, who combines work with teaching for 11 years. I live and I am from Barcelona and I was born in the district of Clot.
+				I am graduate studies in illustration <span class="text-bold">(Escola Massana)</span> and a degree in Fine Arts, specializing in Design <span class="text-bold">(University of Barcelona).</span> I supplemented these studies with a stay at the Ecole Superior des Arts Decoratifs <span class="text-bold">(ENSAD)</span>. I also have a higher degree of technical web design <span class="text-bold">(SEEWAY)</span> and a master's degree in web design <span class="text-bold">(BAU)</span>. As you can see I try to be in constant training. After all...</p> <h2 class="color-txt-white txt-anim"> How I could teach if I were not able to learn?</h2>
+				</div>
+			</div>
+		</div>
+	</article>
+	</section>
+<!--WORKS-->
+ 	<section id="work">
+	<div class="container-wide color-bg-yellow-drk">
+		<div class="container-narrow flex-container flex-row">
+			<div class="fl-2 basis">
+				<div class="container-wide color-bg-yellow-drk">
+
+					<h1> Our work</h1><hr>
+						<div class="slideshow">
+						<div class="prev">&lt;</div>
+						<div class="next">&gt;</div>
+  
+  						<ul class="slides">
+    						<li id="slide-1" data-n="1"></li>
+    						<li id="slide-2" data-n="2"></li>
+    						<li id="slide-3" data-n="3"></li>
+    						<li id="slide-4" data-n="4"></li>
+    						<li id="slide-4" data-n="5"></li>
+  						</ul>
+  							<ul class="nav">
+    						<li id="nav-1" data-cd="1"></li>
+    						<li id="nav-2" data-cd="2"></li>
+    						<li id="nav-3" data-cd="3"></li>
+    						<li id="nav-4" data-cd="4"></li>
+    						<li id="nav-4" data-cd="5"></li>
+  						</ul>
+						</div>
+				</div>
+			</div>
+				<div class="fl-1"><h1>Skills</h1><hr>
+					<div class="fl-1 flex flex-row align-flex-end basis wrap">
+						<div class="ico-htm"></div>
+						<div class="ico-css"></div>
+						<div class="ico-ai"></div>
+						<div class="ico-ps"></div>
+						<div class="ico-sk"></div>
+					</div>
+				</div>
+		</div>
+	</div>
+	</section>
+<!--CONTACT-->
+	<section id="hi">	
+		<div class="container-narrow color-bg-yellow-drk"><h2 class="title color-txt-white txt-anim">Say Hi!</div>
+		<div class="container-wide color-bg-yellow-drk">
+			<div class="container-narrow flex-container flex-">
+				<div class="fl-1 basis wrap">
+					<div><p class="text-bold">Doing nice webdesign stuff, I'll take care about what you wanna say.</p>
+						
+						<p>Come to visit and say hi!</p>
+						<p>C/ Enric Granados 3, 2º1ª<br/>
+						<p>08330 Premià de Mar</p>
+						<p>Or get in touch with me at:</p>
+						<p>hola@pacogarcia.eu<br/>
+						skype: pgarciaskype</p>
+						<h2 class="txt-anim">It would be nice to meet you!</h2>
+					</div>
+				</div>
+				<div class="fl-2 basis wrap">
+					<div id="form-div">
+    					<form class="form bordered" id="form2">
+      						<p class="name">
+        					<input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Place your name here" id="name" />
+     						</p>
+      
+      						<p class="email">
+       						<input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="whatever@whatever.com" />
+     						</p>
+      
+      						<p class="text">
+        					<textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Drop me a line"></textarea>
+      						</p>
+      						<div class="submit">
+        					<input type="submit" value="Send" id="button-blue"/>
+        					<div class="ease"></div>
+      						</div>
+    					</form>
+  					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+	<div class="container-wide color-bg-yellow-drk">
+	
+<!--FOOTER-->
+	<footer>	
+		<div class="container-narrow"><h4>2016. Paco García. Design,<br>Doing nice webdesign stuff, I'll take care about what you wanna say.</h4>
+		</div>
+	</footer>
+<!--JSs src-->
+	<script src="js/slider.js"></script>
+	<script src="js/scroll.js"></script>
+</body>
+<!--JSs script-->
+<!-- Menú-->
+	<script>
+		var opts = {
+    		auto : {
+        	speed : 3500, 
+        	pauseOnHover : true
+    		},
+    		fullScreen : false, 
+    		swipe : true
+			};
+			makeBSS('.num1', opts);
+
+		var opts2 = {
+    		auto : false,
+    		fullScreen : true,
+    		swipe : true
+			};
+			makeBSS('.num2', opts2);
+	</script>
+
+<!--execute button animations-->
+  	<script>
   			$('.btn-slogan').click(function() {
     		$(this).addClass("slideUp");
   			});
-<<<<<<< HEAD
-
 
 			function getRandomInt(min, max) {
-			  return Math.floor(Math.random() * (max - min)) + min;
+			 return Math.floor(Math.random() * (max - min)) + min;
 			}
 
-			var frases = ['hola', 'adios','Un camello no es caballo con 2 jorobas','miquel utrillo 17, el vendrell'];
+			var frases = ['Good to see You', "How's it going?","What's cracking?", "How've you been?"];
 			var fraseActual = frases[getRandomInt(0, 4)];
-			$('h2.color-txt-white').html(fraseActual);
-=======
->>>>>>> e9a807301f1b606573e1f6ebf7606de02a6982f6
+			$('h1.color-txt-grey').html(fraseActual);
+  		
   		</script>
 
   	<!-- menu js code-->
