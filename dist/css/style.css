@@ -202,17 +202,6 @@ hr {
       max-width: 300px;
       min-width: 300px; } }
 
-/*BOTONES*/
-.btn-cam {
-  box-shadow: #404040 0px 3px 3px;
-  -webkit-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s; }
-
-.submit {
-  background-color: red;
-  width: 100px;
-  height: 30px; }
-
 .placeholder {
   width: 100px;
   height: 200px;
