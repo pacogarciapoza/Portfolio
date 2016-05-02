@@ -102,15 +102,6 @@ a{font-size: 2.5rem;
     padding:0.667;
 }
 
-//TEXT COLUMNS
-
-.columns{
-@media only screen and #{$brk-narrow}{
-    column-count: 2;
-    padding: 2rrem;
-    }
-}
-
 .txt-centered{
     text-align: center;
 }
@@ -119,5 +110,14 @@ a{font-size: 2.5rem;
 }
 .text-margin-bottom{
     margin-bottom: 2rem;
+}
+
+//TEXT COLUMNS
+
+.columns{
+@media only screen and #{$brk-narrow}{
+    column-count: 2;
+    padding: 2rrem;
+    }
 }
 

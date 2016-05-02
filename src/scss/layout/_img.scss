@@ -1,4 +1,4 @@
- //PLACEHOLDER DIV
+ //PLACEHOLDER IMG
 .placeholder{
     width:100px;
     height:200px;
@@ -10,22 +10,6 @@
 
     @media #{$brk-narrow}{
     float: left;
-    width:250px;
-    height:320px;
-    }
-}
-
-.img-bio{
-    width:100px;
-    height:200px;
-    background: url("../img/logo.svg");
-    background-repeat: no-repeat;
-    margin:auto;
-    min-width:100px;
-    max-width:200px;
-
-
-    @media #{$brk-narrow}{
     width:250px;
     height:320px;
     }
