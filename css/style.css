@@ -118,13 +118,6 @@ hr {
       -ms-flex-item-align: end;
           align-self: flex-end; }
 
-.item-flex-end {
-  -webkit-box-align: end;
-  -webkit-align-items: flex-end;
-      -ms-flex-align: end;
-              -ms-grid-row-align: flex-end;
-          align-items: flex-end; }
-
 .border-bottom {
   border-bottom: 0.8rem solid #ffffff; }
 
@@ -201,6 +194,23 @@ hr {
       width: 300px;
       max-width: 300px;
       min-width: 300px; } }
+
+.flex-top-left {
+  -webkit-align-self: flex-end;
+      -ms-flex-item-align: end;
+          align-self: flex-end;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+              -ms-grid-row-align: flex-start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start; }
+
+.border-footer {
+  margin-bottom: 5rem; }
 
 /*BOTONES*/
 .btn-cam {
@@ -462,7 +472,7 @@ a {
     -webkit-column-count: 2;
        -moz-column-count: 2;
             column-count: 2;
-    padding: 2rrem; } }
+    padding: 2rem; } }
 
 .txt-centered {
   text-align: center; }
@@ -1647,7 +1657,7 @@ html {
   min-width: 250px;
   float: left;
   left: 50%;
-  margin-top: 30px; }
+  margin-top: -20px; }
 
 .feedback-input {
   color: #5c5c3c;
