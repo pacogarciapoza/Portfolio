@@ -1,18 +1,21 @@
  //PLACEHOLDER IMG
 .placeholder{
-    width:100px;
-    height:200px;
-    background: url("../img/logo.svg");
+    width:320px;
+    height:259px;
+    background: url("../img/gato.png");
+    background-size: cover;
     background-repeat: no-repeat;
     margin:auto;
-    min-width:100px;
-    max-width:200px;
+    min-width:250px;
+    max-width:250px;
 
     @media #{$brk-narrow}{
     float: left;
-    width:250px;
-    height:320px;
-    }
+    width: 220px;
+    height:280px;
+    min-width:270px;
+    max-width:270px;
+}
 }
 
 //BUBBLE TRIANGLE MIXIN

@@ -168,10 +168,10 @@ hr {
   @media only screen and (min-width: 780px) {
     .content-txt {
       float: right;
-      height: 300px;
-      width: 300px;
-      max-width: 300px;
-      min-width: 300px; } }
+      height: 290px;
+      width: 270px;
+      max-width: 280px;
+      min-width: 280px; } }
 
 .content-txt-2 {
   display: -webkit-box;
@@ -203,31 +203,21 @@ hr {
       min-width: 300px; } }
 
 .placeholder {
-  width: 100px;
-  height: 200px;
-  background: url("../img/logo.svg");
+  width: 320px;
+  height: 259px;
+  background: url("../img/gato.png");
+  background-size: cover;
   background-repeat: no-repeat;
   margin: auto;
-  min-width: 100px;
-  max-width: 200px; }
+  min-width: 250px;
+  max-width: 250px; }
   @media (min-width: 780px) {
     .placeholder {
       float: left;
-      width: 250px;
-      height: 320px; } }
-
-.img-bio {
-  width: 100px;
-  height: 200px;
-  background: url("../img/logo.svg");
-  background-repeat: no-repeat;
-  margin: auto;
-  min-width: 100px;
-  max-width: 200px; }
-  @media (min-width: 780px) {
-    .img-bio {
-      width: 250px;
-      height: 320px; } }
+      width: 220px;
+      height: 280px;
+      min-width: 270px;
+      max-width: 270px; } }
 
 .triangle-left-down {
   width: 0;
@@ -446,13 +436,6 @@ a {
 .nota {
   padding: 0.667; }
 
-@media only screen and (min-width: 780px) {
-  .columns {
-    -webkit-column-count: 2;
-       -moz-column-count: 2;
-            column-count: 2;
-    padding: 2rrem; } }
-
 .txt-centered {
   text-align: center; }
 
@@ -461,6 +444,13 @@ a {
 
 .text-margin-bottom {
   margin-bottom: 2rem; }
+
+@media only screen and (min-width: 780px) {
+  .columns {
+    -webkit-column-count: 2;
+       -moz-column-count: 2;
+            column-count: 2;
+    padding: 2rrem; } }
 
 .color-txt-white {
   color: #ffffff; }
